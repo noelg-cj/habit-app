@@ -12,7 +12,6 @@ class SplashStart extends StatelessWidget {
             image: AssetImage('assets/images/splash_1.png'),
             fit: BoxFit.fill
           ),
-          color: Colors.amber
         ),
       )
     );
