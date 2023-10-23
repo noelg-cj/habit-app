@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:habit_tracker/pages/intro_screens/intro_1.dart';
 import 'package:habit_tracker/pages/splash_start.dart';
 
 void main() {
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         fontFamily: 'Klasik'
       ),
-      home: SplashStart()
+      home: IntroFirst()
     );
   }
 }
