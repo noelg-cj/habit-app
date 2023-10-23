@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:habit_tracker/pages/intro_screens/intro_1.dart';
+import 'package:habit_tracker/pages/intro_screens/intro_3.dart';
 import 'package:habit_tracker/pages/splash_start.dart';
 
 import 'pages/intro_screens/intro_2.dart';
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         fontFamily: 'Klasik'
       ),
-      home: IntroSecond()
+      home: IntroThird()
     );
   }
 }
