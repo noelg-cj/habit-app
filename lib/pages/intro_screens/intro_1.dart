@@ -8,8 +8,8 @@ class IntroFirst extends StatelessWidget {
     return Scaffold(
       body: Column(
         children: [
-          SizedBox(height: 100),
-          Center(
+          const SizedBox(height: 100),
+          const Center(
             child: Text(
               "WELCOME TO",
               style: TextStyle(
@@ -18,8 +18,8 @@ class IntroFirst extends StatelessWidget {
               )
             ),
           ),
-          SizedBox(height: 5),
-          Center(
+          const SizedBox(height: 5),
+          const Center(
             child: Text(
               "MONUMENTAL HABITS",
               style: TextStyle(
@@ -28,7 +28,7 @@ class IntroFirst extends StatelessWidget {
               )
             ),
           ),
-          Image(
+          const Image(
             image: AssetImage('assets/images/intro_1.png'),
             height: 400,
           ),

@@ -8,8 +8,8 @@ class IntroThird extends StatelessWidget {
     return Scaffold(
       body: Column(
         children: [
-          SizedBox(height: 100),
-          Center(
+          const SizedBox(height: 100),
+          const Center(
             child: Text(
               "KEEP TRACK OF YOUR",
               style: TextStyle(
@@ -18,8 +18,8 @@ class IntroThird extends StatelessWidget {
               )
             ),
           ),
-          SizedBox(height: 5),
-          Center(
+          const SizedBox(height: 5),
+          const Center(
             child: Text(
               "PROGRESS",
               style: TextStyle(
@@ -28,7 +28,7 @@ class IntroThird extends StatelessWidget {
               )
             ),
           ),
-          Image(
+          const Image(
             image: AssetImage('assets/images/intro_3.png'),
             height: 400,
           ),

@@ -8,8 +8,8 @@ class IntroFourth extends StatelessWidget {
     return Scaffold(
       body: Column(
         children: [
-          SizedBox(height: 100),
-          Center(
+          const SizedBox(height: 100),
+          const Center(
             child: Text(
               "JOIN A SUPPORTIVE",
               style: TextStyle(
@@ -18,8 +18,8 @@ class IntroFourth extends StatelessWidget {
               )
             ),
           ),
-          SizedBox(height: 5),
-          Center(
+          const SizedBox(height: 5),
+          const Center(
             child: Text(
               "COMMUNITY",
               style: TextStyle(
@@ -28,7 +28,7 @@ class IntroFourth extends StatelessWidget {
               )
             ),
           ),
-          Image(
+          const Image(
             image: AssetImage('assets/images/intro_4.png'),
             height: 400,
           ),
@@ -52,19 +52,19 @@ class IntroFourth extends StatelessWidget {
             ),
           ),
 
-          SizedBox(height: 25),
+          const SizedBox(height: 25),
 
           GestureDetector(
             onTap: () {
               
             },
             child: Container(
-              padding: EdgeInsets.symmetric(horizontal: 120, vertical: 15),
+              padding: const EdgeInsets.symmetric(horizontal: 120, vertical: 15),
               decoration: BoxDecoration(
-                color: Color(0xffFDA758),
+                color: const Color(0xffFDA758),
                 borderRadius: BorderRadius.circular(8)
               ),
-              child: Text(
+              child: const Text(
                 "Get Started",
                 style: TextStyle(
                   fontFamily: 'Poppins',
