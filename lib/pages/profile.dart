@@ -20,7 +20,7 @@ class ProfilePage extends StatelessWidget {
             child: IconButton(
               icon: Icon(
                 Icons.arrow_back,
-                color: Colors.black,
+                color: Color(0xff573353),
                 size: 30,
               ),
               onPressed: () => Navigator.of(context).pop(),
@@ -31,7 +31,7 @@ class ProfilePage extends StatelessWidget {
           "Profile", 
           style: TextStyle(
             fontWeight: FontWeight.w600,
-            color: Colors.black
+            color: Color(0xff573353)
           )),
         backgroundColor: Colors.transparent,
         centerTitle: true,
@@ -48,7 +48,7 @@ class ProfilePage extends StatelessWidget {
               ),
               child: Icon(
                 Icons.circle,
-                color: Colors.black,
+                color: Color(0xff573353),
               ),
             ),
           )
