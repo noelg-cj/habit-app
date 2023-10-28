@@ -38,9 +38,19 @@ class ProfilePage extends StatelessWidget {
         elevation: 0,
         toolbarHeight: 85,
         actions: [
-          Icon(
-            Icons.circle,
-            color: Colors.black,
+          Padding(
+            padding: const EdgeInsets.symmetric(vertical: 20, horizontal: 10),
+            child: Container(
+              width: 45,
+              decoration: BoxDecoration(
+                color: Color(0xff573353).withOpacity(0.1),
+                borderRadius: BorderRadius.circular(50)
+              ),
+              child: Icon(
+                Icons.circle,
+                color: Colors.black,
+              ),
+            ),
           )
         ],
       ),
