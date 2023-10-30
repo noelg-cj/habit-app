@@ -18,7 +18,7 @@ class ProfilePage extends StatelessWidget {
               color: Color(0xff573353).withOpacity(0.1)
             ),
             child: IconButton(
-              icon: Icon(
+              icon: const Icon(
                 Icons.arrow_back,
                 color: Color(0xff573353),
                 size: 30,
@@ -54,6 +54,65 @@ class ProfilePage extends StatelessWidget {
           )
         ],
       ),
+      body: Column(
+        children: [
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 20),
+            child: Container(
+              padding: EdgeInsets.all(15),
+              height: 250,
+              decoration: BoxDecoration(
+                color: Colors.amber,
+                borderRadius: BorderRadius.circular(12)
+              ),
+              child: Column(
+                children: [
+                  Row(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Image(image: AssetImage('assets/images/profile_pic.png')),
+                      const SizedBox(width: 10,),
+                      Padding(
+                        padding: const EdgeInsets.only(top: 10),
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text(
+                              'Marilyn Aminoff',
+                              style: TextStyle(
+                                fontWeight: FontWeight.w600,
+                                fontSize: 15,
+                                color: Color(0xff573353)
+                              ),
+                            ),
+                            Text(
+                              'Name',
+                              style: TextStyle(
+                                color: Color(0xff573353).withOpacity(0.5)
+                              ),
+                            )
+                          ],
+                        ),
+                      ),
+                      SizedBox(width: 20,),
+                      Padding(
+                        padding: const EdgeInsets.only(top: 12),
+                        child: Text(
+                          'This week',
+                          style: TextStyle(
+                            color: Color(0xff573353),
+                            fontSize: 15
+                          ),
+                        ),
+                      )
+                    ],
+                  )
+                ],
+              ),
+            ),
+          )
+        ],
+      )
     );
   }
 }
